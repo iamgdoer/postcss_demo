@@ -1,3 +1,19 @@
+/* 自定义属性简写 */
+@alias { 
+    bg: background;
+    mgt: margin-top;
+    pdt: padding-top;
+    bd: border;
+}
+
+.aliased {
+    bg: pink;
+    mgt: 10px;
+    pdt: 10px;
+    bd: 1px solid red;
+}
+
 body{
     background: #ccc;
 }
+

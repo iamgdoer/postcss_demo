@@ -1,3 +1,13 @@
+/* 自定义属性简写 */
+
+.aliased {
+    background: pink;
+    margin-top: 10px;
+    padding-top: 10px;
+    border: 1px solid red;
+}
+
 body{
     background: #ccc;
 }
+
