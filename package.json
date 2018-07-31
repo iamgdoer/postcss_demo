@@ -1,0 +1,43 @@
+{
+  "name": "postcss_test",
+  "version": "1.0.0",
+  "description": "postcss && gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "gulp"
+  ],
+  "author": "shuai",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss": "^7.0.2",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.2",
+    "cssnano": "^4.0.5",
+    "cssnext": "^1.8.4",
+    "express": "^4.16.3",
+    "gulp-postcss": "^7.0.1",
+    "postcss-alias": "^2.0.0",
+    "postcss-all-link-colors": "^2.0.0",
+    "postcss-center": "^1.1.0",
+    "postcss-circle": "^1.1.0",
+    "postcss-clearfix": "^2.0.1",
+    "postcss-color-short": "^0.2.4",
+    "postcss-crip": "^2.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-font-magician": "^2.2.1",
+    "postcss-position": "^1.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "postcss-size": "^2.0.0",
+    "postcss-triangle": "^2.0.0",
+    "postcss-verthorz": "^0.6.2",
+    "precss": "^3.1.2"
+  }
+}
