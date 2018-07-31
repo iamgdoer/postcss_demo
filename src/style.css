@@ -21,3 +21,14 @@ body{
     font-family: 'Indie Flower';
 }
 
+.circle {
+    circle: 100px pink;
+}
+
+.triangle {
+    triangle: pointing-right;
+    width: 200px;
+    height: 150px;
+    background-color: pink;
+}
+

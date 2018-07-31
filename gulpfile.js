@@ -4,11 +4,15 @@ const pump         = require('pump');
 
 const alias        = require('postcss-alias');
 const magician     = require('postcss-font-magician');
+const circle       = require('postcss-circle');
+const triangle     = require('postcss-triangle');
 
 gulp.task('css', function(cb) {
     const plugins = [
         alias,
-        magician
+        magician,
+        circle,
+        triangle
     ];
     pump([
         gulp.src('src/*.css'),

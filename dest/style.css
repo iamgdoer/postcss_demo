@@ -22,3 +22,19 @@ body{
     font-family: 'Indie Flower';
 }
 
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 75px 0 75px 200px;
+    border-left-color: pink;
+}
+
