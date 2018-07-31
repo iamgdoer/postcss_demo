@@ -1,56 +1,70 @@
 @font-face {
-    font-family: "Indie Flower";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Indie Flower"),local(IndieFlower),url(//fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuD.eot?#) format("eot"),url(//fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format("woff2"),url(//fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuB.woff) format("woff");
+  font-family: "Indie Flower";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Indie Flower"),local(IndieFlower),url(//fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuD.eot?#) format("eot"),url(//fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format("woff2"),url(//fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuB.woff) format("woff");
 }
 
 /* 自定义属性简写 */
 
 .aliased {
-    background: pink;
-    margin-top: 10px;
-    padding-top: 10px;
-    border: 1px solid red;
+  background: pink;
+  margin-top: 0.133333rem;
+  padding-top: 0.133333rem;
+  border: 0.013333rem solid red;
 }
 
-body{
-    background: #ccc;
+/* postcss-font-magician test */
+
+.magician {
+  font-family: 'Indie Flower';
 }
 
-.magician{
-    font-family: 'Indie Flower';
-}
+/* 画圆形 */
 
 .circle {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background-color: pink;
+  border-radius: 50%;
+  width: 1.333333rem;
+  height: 1.333333rem;
+  background-color: pink;
 }
+
+/* 画三角形 */
 
 .triangle {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent;
-    border-width: 75px 0 75px 200px;
-    border-left-color: pink;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1rem 0 1rem 2.666667rem;
+  border-left-color: pink;
 }
 
-.precss{
-        width: calc(4 * 200px)
+/* precss使用 */
+
+.precss {
+  width: 10.666667rem;
 }
 
 .icon-weibo {
-        background: url('img/weibo.png');
-    }
+  background: url('img/weibo.png');
+}
 
 .icon-wechat {
-        background: url('img/wechat.png');
-    }
+  background: url('img/wechat.png');
+}
 
 .icon-qq {
-        background: url('img/qq.png');
-    }
+  background: url('img/qq.png');
+}
 
+/* cssnext */
+
+.cssnext {
+  width: 4rem;
+  width: 4rem;
+  height: 2.666667rem;
+  height: 2.666667rem;
+  background-color: red;
+  background-color: red;
+}

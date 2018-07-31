@@ -7,14 +7,18 @@ const magician     = require('postcss-font-magician');
 const circle       = require('postcss-circle');
 const triangle     = require('postcss-triangle');
 const precss       = require('precss');
+const cssnext      = require('postcss-cssnext');
+const px2rem       = require('postcss-px2rem');
 
 gulp.task('css', function(cb) {
     const plugins = [
         alias,
         precss(),
+        cssnext,
         magician,
         circle,
-        triangle
+        triangle,
+        px2rem({remUtil: 75})
     ];
     pump([
         gulp.src('src/*.css'),

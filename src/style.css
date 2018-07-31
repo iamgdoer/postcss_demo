@@ -13,18 +13,17 @@
     bd: 1px solid red;
 }
 
-body{
-    background: #ccc;
-}
-
+/* postcss-font-magician test */
 .magician{
     font-family: 'Indie Flower';
 }
 
+/* 画圆形 */
 .circle {
     circle: 100px pink;
 }
 
+/* 画三角形 */
 .triangle {
     triangle: pointing-right;
     width: 200px;
@@ -32,6 +31,7 @@ body{
     background-color: pink;
 }
 
+/* precss使用 */
 $blue: #056ef0;
 $column: 200px;
 
@@ -53,4 +53,21 @@ $list: weibo, wechat, qq;
         background: url('img/$(icon).png');
     }
 }
+
+/* cssnext */
+
+:root {
+    --width: 300px;
+    --height: 200px;
+    --bgColor: red;
+}
+
+.cssnext {
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--bgColor);
+}
+
+
+
 
