@@ -3,10 +3,12 @@ const postcss      = require('gulp-postcss');
 const pump         = require('pump');
 
 const alias        = require('postcss-alias');
+const magician     = require('postcss-font-magician');
 
 gulp.task('css', function(cb) {
     const plugins = [
-        alias
+        alias,
+        magician
     ];
     pump([
         gulp.src('src/*.css'),
