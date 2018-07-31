@@ -38,3 +38,19 @@ body{
     border-left-color: pink;
 }
 
+.precss{
+        width: calc(4 * 200px)
+}
+
+.icon-weibo {
+        background: url('img/weibo.png');
+    }
+
+.icon-wechat {
+        background: url('img/wechat.png');
+    }
+
+.icon-qq {
+        background: url('img/qq.png');
+    }
+

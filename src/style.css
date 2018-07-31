@@ -32,3 +32,25 @@ body{
     background-color: pink;
 }
 
+$blue: #056ef0;
+$column: 200px;
+
+$a: 5;
+$b: 3;
+
+.precss{
+    @if $a > $b {
+        width: calc(4 * $column);
+    } @else {
+        width: calc(2 * $column);
+    }
+}
+
+$list: weibo, wechat, qq;
+
+@each $icon in ($list) {
+    .icon-$(icon) {
+        background: url('img/$(icon).png');
+    }
+}
+
